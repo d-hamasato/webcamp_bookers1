@@ -71,3 +71,31 @@ label {
 p {
   margin: 33px;
 }
+
+.error-message {
+  width: 450px;
+  background-color: #F0F0F0;
+  border: 2px solid #FD001A;
+  margin-bottom: 20px;
+}
+
+.error-message h3 {
+  padding: 5px 5px 5px 15px;
+  background-color: #C90010;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.error-message ul {
+  margin:33px;
+  padding-inline-start: 40px;
+}
+
+.error-message li {
+  list-style: square;
+}
+
+.success-message {
+  color: #117E1F;
+}
